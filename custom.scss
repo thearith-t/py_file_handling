@@ -1,0 +1,122 @@
+/*-- scss:defaults --*/
+
+// Korean red palette
+$primary-red: #C41E3A;
+$primary-red-dark: #8B0000;
+$primary-red-light: #E57373;
+
+// Typography
+$presentation-font-size: 32px;
+$presentation-heading-color: $primary-red;
+$presentation-heading-font-weight: 600;
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-size: 32px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: #C41E3A;
+  font-weight: 600;
+}
+
+.reveal h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid #E57373;
+  padding-bottom: 0.3em;
+}
+
+.reveal a {
+  color: #C41E3A;
+}
+
+.reveal a:hover {
+  color: #E57373;
+}
+
+.reveal code {
+  color: #8B0000;
+  background-color: rgba(196, 30, 58, 0.08);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.reveal pre {
+  font-size: 0.6em;
+  box-shadow: 0 2px 4px rgba(196, 30, 58, 0.15);
+  border-left: 4px solid #C41E3A;
+}
+
+.reveal .callout {
+  margin: 1em 0;
+  padding: 1em;
+  border-left: 4px solid;
+  background-color: #f8f6f6;
+}
+
+.reveal .callout-important {
+  border-color: #8B0000;
+  background-color: rgba(139, 0, 0, 0.05);
+}
+
+.reveal .callout-tip {
+  border-color: #27ae60;
+  background-color: rgba(39, 174, 96, 0.05);
+}
+
+.reveal .callout-note {
+  border-color: #C41E3A;
+  background-color: rgba(196, 30, 58, 0.05);
+}
+
+.reveal table {
+  font-size: 0.8em;
+}
+
+.reveal table th {
+  background-color: #C41E3A;
+  color: #fff;
+  font-weight: 600;
+}
+
+.reveal table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.reveal table tr:hover {
+  background-color: rgba(196, 30, 58, 0.04);
+}
+
+.reveal .slide-number {
+  color: #C41E3A;
+  background-color: rgba(196, 30, 58, 0.08);
+}
+
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #C41E3A;
+}
+
+.reveal ::selection {
+  background: #E57373;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.reveal em {
+  color: #8B0000;
+  font-style: italic;
+}
+
+.reveal strong {
+  color: #8B0000;
+  font-weight: 700;
+}
